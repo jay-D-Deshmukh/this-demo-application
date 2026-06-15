@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 import { Heart, Sparkles, Github, Twitter, Linkedin } from 'lucide-react';
 
 const hashtags = [
-  '#SaveTheFreshers',
-  '#BuyCursorNotTears',
-  '#LetThemPrompt',
+  '#SupportGenAI',
+  '#FuelTheTokens',
+  '#BuildWithJay',
 ];
 
 export function Footer() {
@@ -32,10 +32,10 @@ export function Footer() {
           </motion.div>
 
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
-            Made with <span className="text-red-400">❤️</span>, <span className="text-amber-400">☕</span>, and an unreasonable amount of AI.
+            Made with <span className="text-red-400">❤️</span>, <span className="text-amber-400">☕</span>, and a lot of tokens.
           </h3>
           <p className="text-gray-400 text-lg">
-            Support the next generation of developers.
+            Support Jay Dinesh Deshmukh — Gen AI Developer building the future.
           </p>
         </motion.div>
 
@@ -70,7 +70,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Copyright */}
           <p className="text-gray-500 text-sm text-center md:text-left">
-            © 2024 Save Our Freshers Foundation (not a real foundation)
+            © 2024 Jay Dinesh Deshmukh · Gen AI Developer
           </p>
 
           {/* Social links placeholder */}
@@ -108,7 +108,7 @@ export function Footer() {
           className="text-center mt-8 text-gray-600 text-xs"
         >
           {/* Hidden message that appears after scrolling */}
-          <span className="font-mono">{'/* If you\'re reading this, you should contribute */'}</span>
+          <span className="font-mono">{'/* Built with LLMs, funded by you */'}</span>
         </motion.p>
       </div>
     </footer>

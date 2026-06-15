@@ -29,15 +29,15 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
             transition={{ duration: 3, repeat: Infinity }}
             className="inline-block text-5xl mb-4"
           >
-            👼
+            🤖
           </motion.div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
-              Become a Fresher's Guardian Angel
+              Fuel Jay's Gen AI Journey
             </span>
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Scan the QR code below. Your contribution could save a junior developer from writing another CRUD API manually.
+            Scan the QR code below. Your contribution helps a Gen AI developer ship agents, RAG pipelines, and the occasional non-hallucinated response.
           </p>
         </motion.div>
 
@@ -97,13 +97,14 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
                 </div>
 
                 <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                  Scan to Donate
+                  Scan to Support
                 </h3>
 
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg mb-6">
-                  <span className="text-gray-400 text-sm">Pay to:</span>
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg mb-2">
+                  <span className="text-gray-400 text-sm">Developer:</span>
                   <span className="text-white font-medium">JAY DINESH DESHMUKH</span>
                 </div>
+                <p className="text-cyan-400 text-sm mb-6">Gen AI Developer · Agents · RAG · LLMs</p>
 
                 {/* Fun stat */}
                 <motion.div
@@ -111,8 +112,8 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
                   className="bg-gradient-to-r from-purple-500/10 to-cyan-500/10 border border-purple-500/20 rounded-xl p-4 mb-6"
                 >
                   <p className="text-gray-300">
-                    Every <span className="text-purple-400 font-bold">₹99</span> donated equals one less{' '}
-                    <code className="bg-gray-800 px-2 py-0.5 rounded text-cyan-400 text-sm">console.log</code> in production.
+                    Every <span className="text-purple-400 font-bold">₹99</span> donated equals roughly{' '}
+                    <code className="bg-gray-800 px-2 py-0.5 rounded text-cyan-400 text-sm">50k tokens</code> of uninterrupted prompting.
                   </p>
                 </motion.div>
 
@@ -140,7 +141,7 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
               <div className="flex items-start gap-2 justify-center text-center">
                 <Info className="w-4 h-4 text-gray-500 mt-0.5 shrink-0" />
                 <p className="text-gray-500 text-sm italic">
-                  *100% of donations go directly toward reducing developer suffering. No project managers were harmed during the making of this campaign.
+                  *100% of donations go directly toward API credits, tooling, and keeping the Gen AI experiments alive. No hallucinations were harmed in the making of this campaign.
                 </p>
               </div>
             </motion.div>

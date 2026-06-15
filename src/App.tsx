@@ -12,13 +12,13 @@ import { FloatingDonateButton } from './components/FloatingDonateButton';
 import { useConfetti } from './hooks/useConfetti';
 
 const loadingMessages = [
-  'Generating AI empathy...',
-  'Calculating fresher suffering index...',
-  'Searching for unused L&D budget...',
-  'Loading developer tears analytics...',
-  'Optimizing caffeine distribution...',
-  'Analyzing Stack Overflow addiction rates...',
-  'Preparing emotional damage assessment...',
+  'Warming up the LLM...',
+  'Calculating token burn rate...',
+  'Indexing the vector database...',
+  'Tuning RAG retrieval scores...',
+  'Deploying agent workflows...',
+  'Estimating API credit deficit...',
+  'Generating one more prompt...',
 ];
 
 function App() {
@@ -98,7 +98,7 @@ function LoadingScreen({ message }: { message: string }) {
         }}
         className="text-6xl mb-8"
       >
-        🚀
+        🤖
       </motion.div>
 
       {/* Title */}
@@ -107,7 +107,7 @@ function LoadingScreen({ message }: { message: string }) {
         animate={{ opacity: 1, y: 0 }}
         className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent mb-4"
       >
-        Save Our Freshers
+        Support a Gen AI Developer
       </motion.h1>
 
       {/* Loading message */}

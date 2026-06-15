@@ -3,40 +3,40 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    emoji: '👨‍💻',
-    quote: "Before Cursor, I wrote nested loops. Now I write prompts.",
-    author: 'Anonymous Fresher',
-    role: 'Junior Developer',
+    emoji: '🤖',
+    quote: "Before support, I rationed tokens like water in a desert. Now I prompt freely.",
+    author: 'Jay Dinesh Deshmukh',
+    role: 'Gen AI Developer',
   },
   {
     emoji: '🧑‍💼',
-    quote: "I reviewed 47 fewer PRs this week after buying Cursor for my team.",
-    author: 'Team Lead',
-    role: 'Frontend Lead',
+    quote: "I watched Jay demo an agent that actually worked. Turns out, coffee and API credits help.",
+    author: 'Product Manager',
+    role: 'AI Product Team',
   },
   {
     emoji: '😂',
-    quote: "My mom finally thinks I'm good at coding.",
-    author: 'Junior Developer',
-    role: 'Full Stack Intern',
+    quote: "My family finally understands what I do. 'He talks to robots' is close enough.",
+    author: 'Jay Dinesh Deshmukh',
+    role: 'Gen AI Developer',
   },
   {
     emoji: '👴',
-    quote: "I've been coding for 10 years. Cursor made me feel like a junior again, but in a good way.",
-    author: 'Senior Developer',
-    role: 'Staff Engineer',
+    quote: "I've built software for 10 years. Gen AI is the hardest and most exciting thing I've done.",
+    author: 'Jay Dinesh Deshmukh',
+    role: 'Gen AI Developer',
   },
   {
     emoji: '👩‍💻',
-    quote: "I used to cry during code reviews. Now I just smile and press Tab.",
-    author: 'SDE-1',
-    role: 'Backend Developer',
+    quote: "I used to panic at rate limit errors. Now I just ship another agent.",
+    author: 'Fellow AI Builder',
+    role: 'ML Engineer',
   },
   {
     emoji: '🧙',
-    quote: "My team thinks I'm a wizard. Little do they know, it's just Cursor.",
+    quote: "People think Jay's a wizard. Little do they know, it's just good prompts and your donations.",
     author: 'Tech Lead',
-    role: 'Solutions Architect',
+    role: 'AI Platform Team',
   },
 ];
 
@@ -61,7 +61,7 @@ export function Testimonials() {
             </span>
           </h2>
           <p className="text-gray-400 text-lg">
-            From developers who've been saved by Cursor AI
+            From the Gen AI trenches — real stories from building with LLMs
           </p>
         </motion.div>
 

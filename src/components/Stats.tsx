@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { useCountUp } from '../hooks/useCountUp';
 
 const stats = [
-  { emoji: '😭', label: 'of freshers still use Stack Overflow copy-paste', value: 97, suffix: '%' },
-  { emoji: '🐛', label: 'bugs could have been prevented with Cursor', value: 12483, suffix: '' },
-  { emoji: '☕', label: 'cups of coffee wasted debugging semicolons', value: 4219, suffix: '' },
-  { emoji: '💔', label: 'of junior developers cried after their first merge conflict', value: 73, suffix: '%' },
+  { emoji: '🔥', label: 'of Gen AI devs have hit a rate limit mid-demo', value: 94, suffix: '%' },
+  { emoji: '🧠', label: 'tokens burned debugging one hallucination', value: 48200, suffix: '' },
+  { emoji: '☕', label: 'cups of coffee consumed waiting for embeddings', value: 3187, suffix: '' },
+  { emoji: '💸', label: 'of API bills paid out of pocket by indie AI builders', value: 81, suffix: '%' },
 ];
 
 export function Stats() {
@@ -24,11 +24,11 @@ export function Stats() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              The Suffering is Real
+              The Token Crisis is Real
             </span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            These aren't just numbers. They're cries for help from developers who haven't discovered Cursor yet.
+            These aren't just numbers. They're the daily reality of building with LLMs, agents, and RAG pipelines.
           </p>
         </motion.div>
 

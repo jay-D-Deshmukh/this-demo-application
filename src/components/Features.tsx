@@ -3,27 +3,27 @@ import { Frown, Smile, Heart, Code, Bug, Clock, Search, Zap, GitBranch, Coffee, 
 
 const features = {
   without: {
-    title: 'Without Cursor',
+    title: 'Without Support',
     emoji: '😢',
     color: 'from-red-500/20 to-orange-500/20',
     borderColor: 'border-red-500/20',
     items: [
-      { icon: Code, text: 'Writes 200 lines manually' },
-      { icon: Bug, text: 'Breaks production accidentally' },
-      { icon: Clock, text: 'Spends 3 hours fixing TypeScript errors' },
-      { icon: Search, text: 'Googles "how to center a div" every week' },
+      { icon: Code, text: 'Hits rate limits during live demos' },
+      { icon: Bug, text: 'Spends hours fixing hallucinated code' },
+      { icon: Clock, text: 'Waits 3 hours for embedding jobs to finish' },
+      { icon: Search, text: 'Googles "why is my RAG returning garbage" weekly' },
     ],
   },
   with: {
-    title: 'With Cursor',
+    title: 'With Your Support',
     emoji: '😎',
     color: 'from-green-500/20 to-cyan-500/20',
     borderColor: 'border-green-500/20',
     items: [
-      { icon: Zap, text: 'Generates components instantly' },
-      { icon: GitBranch, text: 'Refactors like a senior engineer' },
-      { icon: Coffee, text: 'Fixes bugs before lunch' },
-      { icon: Clock, text: 'Actually leaves office on time' },
+      { icon: Zap, text: 'Ships agents without quota anxiety' },
+      { icon: GitBranch, text: 'Fine-tunes models like a pro' },
+      { icon: Coffee, text: 'Debugs prompts before the standup' },
+      { icon: Clock, text: 'Actually ships Gen AI features on time' },
     ],
   },
   contribution: {
@@ -32,10 +32,10 @@ const features = {
     color: 'from-purple-500/20 to-pink-500/20',
     borderColor: 'border-purple-500/20',
     items: [
-      { icon: Heart, text: 'Gives a fresher confidence' },
-      { icon: ShieldCheck, text: 'Saves countless debugging hours' },
-      { icon: Brain, text: 'Prevents unnecessary emotional damage' },
-      { icon: TrendingUp, text: 'Helps them become productive developers' },
+      { icon: Heart, text: 'Keeps Jay building Gen AI products' },
+      { icon: ShieldCheck, text: 'Funds API credits and GPU time' },
+      { icon: Brain, text: 'Prevents another abandoned side project' },
+      { icon: TrendingUp, text: 'Helps ship the next AI breakthrough' },
     ],
   },
 };
@@ -61,7 +61,7 @@ export function Features() {
             </span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            See the dramatic difference your donation can make in a fresher's life
+            See the difference your support makes for a Gen AI developer building in the wild
           </p>
         </motion.div>
 

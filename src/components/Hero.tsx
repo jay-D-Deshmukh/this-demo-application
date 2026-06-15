@@ -6,12 +6,12 @@ interface HeroProps {
 }
 
 const floatingCodeSnippets = [
-  'const bug = null;',
-  'npm run cry',
-  'git push --force',
-  'console.log("why")',
-  'any as never',
-  'TODO: fix later',
+  'temperature=0.7',
+  'pip install langchain',
+  'embeddings.encode()',
+  'agent.run(prompt)',
+  'max_tokens=4096',
+  'RAG pipeline failed',
 ];
 
 export function Hero({ onDonateClick }: HeroProps) {
@@ -77,7 +77,7 @@ export function Hero({ onDonateClick }: HeroProps) {
           className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 rounded-full px-4 py-2 mb-8"
         >
           <AlertTriangle className="w-4 h-4 text-red-400" />
-          <span className="text-red-400 text-sm font-medium">URGENT: Developer Sanity at Risk</span>
+          <span className="text-red-400 text-sm font-medium">URGENT: API Credits Running Low</span>
           <motion.span
             animate={{ opacity: [1, 0.3, 1] }}
             transition={{ duration: 1, repeat: Infinity }}
@@ -93,7 +93,7 @@ export function Hero({ onDonateClick }: HeroProps) {
           className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
         >
           <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
-            Save Our Freshers!
+            Support a Gen AI Developer
           </span>
         </motion.h1>
 
@@ -104,8 +104,8 @@ export function Hero({ onDonateClick }: HeroProps) {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed"
         >
-          "Every day, hundreds of freshers are forced to write boilerplate code manually. They debug for hours,
-          cry over CSS alignment, and still cannot center a div. Together, we can change their lives."
+          "Every day, Gen AI developers burn through tokens building agents, fine-tuning models, and debugging hallucinations.
+          Jay Dinesh Deshmukh is building the future — one prompt at a time. Help keep the GPUs warm."
         </motion.p>
 
         {/* Buttons */}
@@ -123,7 +123,7 @@ export function Hero({ onDonateClick }: HeroProps) {
           >
             <span className="relative z-10 flex items-center gap-2">
               <Heart className="w-5 h-5" fill="currentColor" />
-              Donate for a Cursor License
+              Donate API Credits
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </motion.button>
@@ -134,7 +134,7 @@ export function Hero({ onDonateClick }: HeroProps) {
             className="px-8 py-4 bg-gradient-to-r from-cyan-600/20 to-cyan-500/20 border border-cyan-500/30 rounded-xl font-semibold text-cyan-400 backdrop-blur-sm flex items-center gap-2 hover:border-cyan-400/50 transition-colors"
           >
             <Coffee className="w-5 h-5" />
-            Sponsor a Developer's Sanity
+            Fuel the Next Agent
           </motion.button>
         </motion.div>
 
@@ -147,16 +147,16 @@ export function Hero({ onDonateClick }: HeroProps) {
         >
           <GlassmorphismCard className="p-8 max-w-2xl mx-auto">
             <div className="relative flex justify-center items-center">
-              {/* Tired fresher illustration */}
+              {/* Gen AI dev illustration */}
               <div className="relative text-center">
                 <motion.div
                   animate={{ y: [0, -5, 0] }}
                   transition={{ duration: 3, repeat: Infinity }}
                   className="text-6xl md:text-8xl mb-4"
                 >
-                  👨‍💻
+                  🤖
                 </motion.div>
-                <p className="text-2xl font-bold text-gray-200 mb-2">"Why is this div not centering?!"</p>
+                <p className="text-2xl font-bold text-gray-200 mb-2">"Why is the model hallucinating again?!"</p>
 
                 {/* Floating bugs */}
                 <div className="absolute -top-4 left-0 text-3xl">
@@ -183,7 +183,7 @@ export function Hero({ onDonateClick }: HeroProps) {
                 className="flex items-center gap-2 text-red-400"
               >
                 <Bug className="w-4 h-4" />
-                <span>TypeError: Cannot read property 'undefined' of null</span>
+                <span>RateLimitError: You exceeded your current quota</span>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
@@ -192,7 +192,7 @@ export function Hero({ onDonateClick }: HeroProps) {
                 className="flex items-center gap-2 text-yellow-400"
               >
                 <Code className="w-4 h-4" />
-                <span>Warning: Each child should have a unique 'key' prop</span>
+                <span>Warning: Context window exceeded (128k tokens)</span>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
@@ -201,7 +201,7 @@ export function Hero({ onDonateClick }: HeroProps) {
                 className="flex items-center gap-2 text-orange-400"
               >
                 <AlertTriangle className="w-4 h-4" />
-                <span>Error: ENOSPC: no space left on device, write</span>
+                <span>Error: RAG retrieval returned irrelevant chunks</span>
               </motion.div>
             </div>
           </GlassmorphismCard>

@@ -42,7 +42,7 @@ export function DonationProgress() {
             <div className="flex items-center gap-3">
               <Target className="w-8 h-8 text-purple-400" />
               <div>
-                <p className="text-gray-400 text-sm">Cursor Fund Goal</p>
+                <p className="text-gray-400 text-sm">Gen AI Stack Fund</p>
                 <p className="text-2xl md:text-3xl font-bold text-white">₹25,000</p>
               </div>
             </div>
@@ -112,7 +112,7 @@ export function DonationProgress() {
           >
             <Pizza className="w-6 h-6 text-yellow-400 shrink-0" />
             <p className="text-gray-300 text-sm md:text-base">
-              Only <span className="text-yellow-400 font-bold">{developersNeeded}</span> more developers need to skip one weekend pizza order to save a fresher.
+              Only <span className="text-yellow-400 font-bold">{developersNeeded}</span> more supporters need to skip one weekend pizza order to fund Jay's next Gen AI experiment.
             </p>
           </motion.div>
 

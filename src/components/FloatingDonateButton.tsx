@@ -105,7 +105,7 @@ export function FloatingDonateButton({ onDonateClick }: FloatingDonateButtonProp
             exit={{ opacity: 0, x: 20 }}
             className="absolute right-full top-1/2 -translate-y-1/2 mr-3 px-3 py-2 bg-gray-800 rounded-lg text-sm text-white whitespace-nowrap pointer-events-none"
           >
-            Save a fresher today! 💜
+            Fuel Jay's Gen AI build! 🤖
             <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 border-4 border-transparent border-l-gray-800" />
           </motion.div>
         )}

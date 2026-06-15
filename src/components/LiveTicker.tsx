@@ -3,14 +3,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Radio } from 'lucide-react';
 
 const donationMessages = [
-  'A Senior Developer from Backend Team just donated ₹499 to save freshers.',
-  'Tech Lead from Frontend contributed ₹999. "No more merge conflicts!" they said.',
-  'An anonymous SDE3 donated ₹299. "I remember my fresher days..."',
-  'A kind-hearted architect gave ₹1,999 for 2 Cursor licenses!',
-  'DevOps Engineer pitched in ₹199. "Save them from debugging hell!"',
-  'A wise Staff Engineer donated ₹500 in memory of their first segfault.',
-  'Full Stack Developer from Product Team gave ₹449 to end CSS suffering.',
-  'QA Engineer generously donated ₹350. "I want fewer bugs to test!"',
+  'An ML Engineer just donated ₹499 to fuel Jay\'s next agent build.',
+  'A Product Manager contributed ₹999. "Ship that RAG pipeline!" they said.',
+  'An anonymous AI researcher donated ₹299. "Keep experimenting!"',
+  'A kind-hearted founder gave ₹1,999 for API credits!',
+  'DevOps Engineer pitched in ₹199. "Save them from rate limits!"',
+  'A wise Staff Engineer donated ₹500 in memory of a hallucinated response.',
+  'Full Stack Developer gave ₹449 to fund embedding jobs.',
+  'QA Engineer generously donated ₹350. "Fewer broken agents to test!"',
 ];
 
 export function LiveTicker() {
