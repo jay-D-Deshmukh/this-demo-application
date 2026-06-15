@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Smartphone, QrCode, Coffee, Info } from 'lucide-react';
+import { Smartphone, Coffee, Info } from 'lucide-react';
+import phonepeQr from '../public/Media (1).jpeg';
 
 interface QRDonationCardProps {
   onDonateClick: () => void;
@@ -58,11 +59,11 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
                 whileHover={{ scale: 1.02 }}
                 className="relative shrink-0"
               >
-                <div className="relative p-4 bg-white rounded-2xl shadow-xl shadow-purple-500/20">
-                  <div className="w-48 h-48 md:w-56 md:h-56 flex items-center justify-center bg-white">
-                    <QRPlaceholder />
-                  </div>
-                </div>
+                <img
+                  src={phonepeQr}
+                  alt="PhonePe QR Code - Scan to pay JAY DINESH DESHMUKH"
+                  className="w-48 md:w-56 h-auto rounded-2xl shadow-xl shadow-purple-500/20"
+                />
 
                 {/* Floating emojis around QR */}
                 <motion.div
@@ -99,10 +100,9 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
                   Scan to Donate
                 </h3>
 
-                {/* UPI ID */}
                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg mb-6">
-                  <span className="text-gray-400 text-sm">UPI ID:</span>
-                  <span className="text-white font-mono">your-upi-id@phonepe</span>
+                  <span className="text-gray-400 text-sm">Pay to:</span>
+                  <span className="text-white font-medium">JAY DINESH DESHMUKH</span>
                 </div>
 
                 {/* Fun stat */}
@@ -152,25 +152,5 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
         </motion.div>
       </div>
     </section>
-  );
-}
-
-function QRPlaceholder() {
-  return (
-    <div className="relative w-full h-full flex items-center justify-center">
-      <QrCode className="w-32 h-32 text-gray-300" />
-      <div className="absolute inset-0 flex items-center justify-center">
-        <span className="text-gray-400 text-xs text-center mt-20">
-          <img
-            src="/images/phonepe-qr.png"
-            alt="PhonePe QR Code"
-            className="w-full h-full object-contain"
-            onError={(e) => {
-              e.currentTarget.style.display = 'none';
-            }}
-          />
-        </span>
-      </div>
-    </div>
   );
 }
