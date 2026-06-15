@@ -4,7 +4,7 @@ import { Heart, Sparkles, Github, Twitter, Linkedin } from 'lucide-react';
 const hashtags = [
   '#SupportGenAI',
   '#FuelTheTokens',
-  '#BuildWithJay',
+  '#BuildWithAI',
 ];
 
 export function Footer() {
@@ -35,7 +35,7 @@ export function Footer() {
             Made with <span className="text-red-400">❤️</span>, <span className="text-amber-400">☕</span>, and a lot of tokens.
           </h3>
           <p className="text-gray-400 text-lg">
-            Support Jay Dinesh Deshmukh — Gen AI Developer building the future.
+            Support Gen AI developers building the future.
           </p>
         </motion.div>
 
@@ -70,7 +70,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Copyright */}
           <p className="text-gray-500 text-sm text-center md:text-left">
-            © 2024 Jay Dinesh Deshmukh · Gen AI Developer
+            © 2024 Gen AI Developer Fund
           </p>
 
           {/* Social links placeholder */}

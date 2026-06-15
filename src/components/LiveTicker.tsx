@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Radio } from 'lucide-react';
 
 const donationMessages = [
-  'An ML Engineer just donated ₹499 to fuel Jay\'s next agent build.',
+  'An ML Engineer just donated ₹499 to fuel the next agent build.',
   'A Product Manager contributed ₹999. "Ship that RAG pipeline!" they said.',
   'An anonymous AI researcher donated ₹299. "Keep experimenting!"',
   'A kind-hearted founder gave ₹1,999 for API credits!',

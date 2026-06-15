@@ -105,7 +105,7 @@ export function Hero({ onDonateClick }: HeroProps) {
           className="text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed"
         >
           "Every day, Gen AI developers burn through tokens building agents, fine-tuning models, and debugging hallucinations.
-          Jay Dinesh Deshmukh is building the future — one prompt at a time. Help keep the GPUs warm."
+          Gen AI developers are building the future — one prompt at a time. Help keep the GPUs warm."
         </motion.p>
 
         {/* Buttons */}

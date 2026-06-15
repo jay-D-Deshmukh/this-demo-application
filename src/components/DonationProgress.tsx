@@ -112,7 +112,7 @@ export function DonationProgress() {
           >
             <Pizza className="w-6 h-6 text-yellow-400 shrink-0" />
             <p className="text-gray-300 text-sm md:text-base">
-              Only <span className="text-yellow-400 font-bold">{developersNeeded}</span> more supporters need to skip one weekend pizza order to fund Jay's next Gen AI experiment.
+              Only <span className="text-yellow-400 font-bold">{developersNeeded}</span> more supporters need to skip one weekend pizza order to fund the next Gen AI experiment.
             </p>
           </motion.div>
 

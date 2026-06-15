@@ -32,7 +32,7 @@ const features = {
     color: 'from-purple-500/20 to-pink-500/20',
     borderColor: 'border-purple-500/20',
     items: [
-      { icon: Heart, text: 'Keeps Jay building Gen AI products' },
+      { icon: Heart, text: 'Keeps Gen AI builders shipping products' },
       { icon: ShieldCheck, text: 'Funds API credits and GPU time' },
       { icon: Brain, text: 'Prevents another abandoned side project' },
       { icon: TrendingUp, text: 'Helps ship the next AI breakthrough' },

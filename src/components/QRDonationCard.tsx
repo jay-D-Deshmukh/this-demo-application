@@ -33,7 +33,7 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
           </motion.div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
-              Fuel Jay's Gen AI Journey
+              Fuel the Gen AI Journey
             </span>
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
@@ -61,7 +61,7 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
               >
                 <img
                   src={phonepeQr}
-                  alt="PhonePe QR Code - Scan to pay JAY DINESH DESHMUKH"
+                  alt="PhonePe QR Code - Scan to donate"
                   className="w-48 md:w-56 h-auto rounded-2xl shadow-xl shadow-purple-500/20"
                 />
 
@@ -100,10 +100,6 @@ export function QRDonationCard({ onDonateClick }: QRDonationCardProps) {
                   Scan to Support
                 </h3>
 
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg mb-2">
-                  <span className="text-gray-400 text-sm">Developer:</span>
-                  <span className="text-white font-medium">JAY DINESH DESHMUKH</span>
-                </div>
                 <p className="text-cyan-400 text-sm mb-6">Gen AI Developer · Agents · RAG · LLMs</p>
 
                 {/* Fun stat */}

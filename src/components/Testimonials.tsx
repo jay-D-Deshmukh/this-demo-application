@@ -5,25 +5,25 @@ const testimonials = [
   {
     emoji: '🤖',
     quote: "Before support, I rationed tokens like water in a desert. Now I prompt freely.",
-    author: 'Jay Dinesh Deshmukh',
-    role: 'Gen AI Developer',
+    author: 'Gen AI Developer',
+    role: 'LLM Engineer',
   },
   {
     emoji: '🧑‍💼',
-    quote: "I watched Jay demo an agent that actually worked. Turns out, coffee and API credits help.",
+    quote: "I watched a demo where an agent actually worked. Turns out, coffee and API credits help.",
     author: 'Product Manager',
     role: 'AI Product Team',
   },
   {
     emoji: '😂',
     quote: "My family finally understands what I do. 'He talks to robots' is close enough.",
-    author: 'Jay Dinesh Deshmukh',
-    role: 'Gen AI Developer',
+    author: 'Gen AI Developer',
+    role: 'Agent Builder',
   },
   {
     emoji: '👴',
     quote: "I've built software for 10 years. Gen AI is the hardest and most exciting thing I've done.",
-    author: 'Jay Dinesh Deshmukh',
+    author: 'Gen AI Developer',
     role: 'Gen AI Developer',
   },
   {
@@ -34,7 +34,7 @@ const testimonials = [
   },
   {
     emoji: '🧙',
-    quote: "People think Jay's a wizard. Little do they know, it's just good prompts and your donations.",
+    quote: "People think we're wizards. Little do they know, it's just good prompts and your donations.",
     author: 'Tech Lead',
     role: 'AI Platform Team',
   },
